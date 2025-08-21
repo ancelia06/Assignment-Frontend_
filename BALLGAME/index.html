@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slider Number Guess</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Problem Statement:</h2>
+
+  <div class="instructions">
+    <h3>Instructions of the Game:</h3>
+    <ul>
+      <li>Guess the number by moving the slider</li>
+      <li>Yellow = too low</li>
+      <li>Red = too high</li>
+      <li>Green = correct</li>
+      <li>Max attempts: <strong>6</strong></li>
+    </ul>
+  </div>
+
+  <div class="game-container">
+    <div class="numbers-wrapper">
+      <input type="range" id="slider" min="1" max="10" value="5" />
+      <div class="numbers" id="numbers"></div>
+    </div>
+    <p id="attempt"></p>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

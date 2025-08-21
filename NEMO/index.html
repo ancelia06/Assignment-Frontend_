@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finding Nemo (Level 1)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game" id="game" aria-live="polite">
+    <h1 class="title">Finding Nemo </h1>
+
+    <div class="topbar">
+      <div class="stats">
+        <span class="badge">Chances: <strong id="limit">5</strong></span>
+        <span class="badge">Used: <strong id="used">0</strong></span>
+        <span class="badge">Left: <strong id="left">5</strong></span>
+      </div>
+      <div class="actions">
+        <button id="restartBtn" class="secondary" title="Start a new game (R)">Restart</button>
+      </div>
+    </div>
+
+    <section class="board" id="board" aria-label="Shells board"></section>
+
+    <p id="message" class="message" role="status">
+       You have only 5 chances!
+      
+    </p>
+
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

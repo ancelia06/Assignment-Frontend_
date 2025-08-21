@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f8ff;
+  color: #333;
+}
+
+.game {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+.secondary {
+  padding: 0.5rem 1rem;
+  background: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.tile {
+  background: #fff;
+  border: 2px solid #ccc;
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.tile:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 0 2px #0078d7;
+}
+
+.shell {
+  font-size: 2rem;
+}
+
+.revealed .shell {
+  display: none;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.nemo {
+  color: green;
+}
+
+.miss {
+  color: red;
+}
+
+.highlight {
+  background: #dff0d8;
+}
+
+.message {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.message.win {
+  color: green;
+}
+
+.message.lose {
+  color: red;
+}
+
+.small {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.footer-note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 1rem;
+}

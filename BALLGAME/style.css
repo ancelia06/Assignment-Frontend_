@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fdfdfd;
+  margin: 0;
+  padding: 20px;
+}
+
+.instructions {
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  background: #fefae0;
+  border: 4px dashed green;
+  text-align: left;
+}
+
+.instructions h3 {
+  margin-top: 0;
+}
+
+.yellow { color: goldenrod; font-weight: bold; }
+.red { color: red; font-weight: bold; }
+.green { color: green; font-weight: bold; }
+
+.game-container {
+  margin-top: 20px;
+}
+
+.numbers-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#slider {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: cyan;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+#attempt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
